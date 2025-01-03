@@ -1,0 +1,55 @@
+# Ignore build files
+/build/
+/out/
+/bin/
+/obj/
+/*.o
+/*.obj
+/*.exe
+/*.out
+/*.dll
+/*.so
+/*.dylib
+/*.a
+/*.lib
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Ignore test binaries and coverage reports
+/tests/bin/
+/tests/obj/
+/*.gcda
+/*.gcno
+/coverage/
+
+# Ignore user-specific settings
+*.user
+*.session
+
+# Ignore auto-generated files
+*.gch
+*.pch
+*.ipch
