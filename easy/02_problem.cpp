@@ -4,6 +4,8 @@ using namespace std;
 
 // Question: Given an integer x, return true if x is palindrome integer.
 
+// What is a Palindrome?
+// A palindrome is a number that reads the same backward as forward. For example, 121 is palindrome while 123 is not.
 class Solution
 {
 public:
